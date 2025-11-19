@@ -14,7 +14,7 @@ otherwise, we can't see the plot in the ".md" document in Github.
 
 4. If we want to show the plot in read.me file, we can insert the png here:
 
-![BMI Histogram](plots/bmi_hist.png)
+![BMI Histogram](plots/bmi_dist.png)
 
 
 
