@@ -31,5 +31,7 @@ bmi_plot <- survey |>
   theme_minimal()
 
 bmi_plot
+
+ggsave("plots/bmi_dist.png", dpi = 300)
 ```
 

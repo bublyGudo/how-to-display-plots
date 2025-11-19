@@ -49,3 +49,12 @@ bmi_plot
     ## (`stat_bin()`).
 
 ![](display_plots_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+
+``` r
+ggsave("plots/bmi_dist.png", dpi = 300)
+```
+
+    ## Saving 7 x 5 in image
+
+    ## Warning: Removed 97 rows containing non-finite outside the scale range
+    ## (`stat_bin()`).
