@@ -1,0 +1,35 @@
+---
+title: "display_plots"
+author: "bublyGudo"
+date: "2025-11-19"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# Library
+```{r}
+library(tidyverse)
+library(readxl)
+library(dplyr)
+```
+
+# Data
+```{r}
+survey = read_excel("data_source/breast_cancer_survey_data.xlsx")
+```
+
+# EDA
+ 
+```{r}
+bmi_plot <- survey |>
+  ggplot(aes(x = BMI)) +
+  geom_histogram(binwidth = 1, fill = "skyblue") +
+  labs(title = "Distribution of BMI",
+       x = "BMI",
+       y = "Count")+
+  theme_minimal()
+
+bmi_plot
+```
+
