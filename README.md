@@ -17,6 +17,8 @@ otherwise, we can't see the plot in the ".md" document in Github.
 
 ![BMI Histogram](plots/bmi_dist.png)
 
+Another thought: if we want to make a website, we can use R but change the yaml code.
+
 
 
 
