@@ -2,7 +2,7 @@
 title: "display_plots"
 author: "bublyGudo"
 date: "2025-11-19"
-output: html_document
+output: github_document
 editor_options: 
   chunk_output_type: console
 ---
